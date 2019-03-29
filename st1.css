@@ -1,0 +1,74 @@
+body{
+	 background:rgba(247,243,243,1.00)center center fixed;
+	 -webkit-background-size: cover;
+      -moz-background-size: cover;
+	  -o-background-size: cover;
+	   background-size: cover;
+	   opacity: 0.95;
+	   font-family: 'ABeeZee', sans-serif;
+}
+
+.well{
+	width: 850px;
+	height: auto;
+	margin-left: 16%;
+	box-shadow: 2px 4px 2px 2px gray;
+	margin-top: 1%;
+	
+}
+
+h1{
+	color: rgba(0,0,0,1.00); 
+	margin-left: 3%;
+	
+	
+	
+}
+
+#content{
+	margin-top: 5%;
+	margin-left: 2%;
+	margin-right: 2%;
+	background-color: #DFFEDE;
+	width: 1210px;
+	height: auto;
+	
+}
+/*bootstrap customs*/
+
+.navbar-inverse{
+	background: #E0E4E7;
+	border:none;
+	font-size: 84%;
+	letter-spacing: 1.9px;
+	
+}
+.navbar-brand{
+	letter-spacing: 2px;
+	font-size: 35px;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+	color:#303F9F;
+	font-size: 110%;
+	
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	color:black;
+}
+
+@media only screen and (max-width: 700px){
+	.well{
+	width: 400px;
+	height: auto;
+	margin-left: 4%;
+	box-shadow: 2px 4px 2px 2px gray;
+	margin-top: 1%;
+	}
+	#content{
+	width: 418px;
+	
+	}
+	
+}
