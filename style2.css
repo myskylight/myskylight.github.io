@@ -1,0 +1,146 @@
+html,body{
+	height: 100%;
+	margin: 0;
+	background:linear-gradient(
+			rgba(24,24,24,0.7),rgba(24,24,24,0.7)),url("architecture-buildings-city-313782.jpg") no-repeat center center fixed;
+	background-size:cover;
+	
+	overflow: hidden;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	opacity: 0.95;
+	font-family: 'Open Sans Condensed', sans-serif;
+	
+}
+.home-content{
+	display: table-cell;
+	width: 100vw;
+	height: 100vh;
+	padding-top: 3%;
+	text-align: center;
+	vertical-align: middle;
+}
+.button{
+	background: transparent;
+	border: solid #00E676 2.8px;
+	font-size: 25px;
+	text-align: center;
+	color: aliceblue;
+	
+}
+
+.big{
+	font-size: 84px;
+	color:#FFFFFF; 
+	
+}
+
+h3{
+	color: aliceblue;
+	text-align: justify;
+	text-align: center;
+}
+
+.button:hover{
+	background:#00E676;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	transform: scale(1.1,1.1);
+	
+}
+
+.basic{
+	margin-top: 20%;
+	margin-left: 20%;
+	color: aliceblue;
+}
+
+li a{
+	display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+
+input[type="button"]{
+	background:linear-gradient(to right,#F2994A, #F2C94C);
+	text-align: center;
+	vertical-align: middle;
+	margin: 1.5%;
+	border: none;
+	border-radius: 18px 0px 18px;
+	width: 150px;
+	height: 45px;
+	color: #FFFFFF;
+	outline: none;
+}
+
+
+.gallery-content{
+	padding-top:1%;
+	margin-left: 7%;
+	color: #FFFFFF;
+	text-align: center;
+    width: 100vw;
+	height: 100vh;
+	display: table-cell;
+	vertical-align: middle;
+}
+.font-hover:hover{
+	font-size: 130%;
+	cursor: pointer;
+	
+}
+
+
+
+
+
+@media only screen and (max-width: 700px){
+	.home-content{
+		padding-top: 5%;
+	}
+	
+	.big{
+	font-size: 65px;
+	color:#FFFFFF; 
+	
+}
+	.button{
+		font-size: 20px;
+	}
+	.gallery-content{
+		padding-top: 50px;
+	}
+		
+}
+
+.big1{
+	margin-top: -40%;
+} 
+
+/*bootstrap customs*/
+
+.navbar-default{
+    background: #E0E4E7;
+	border:none;
+	font-size: 84%;
+	letter-spacing: 1.9px;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color:black;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    color:#303F9F;
+	font-size: 110%;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #69899f;
+	width: 400px;
+	height: auto;
+}
+
+
