@@ -13,6 +13,15 @@ html,body{
 	font-family: 'Open Sans Condensed', sans-serif;
 	
 }
+.about-content{
+	font-weight: lighter;
+	text-align: center;
+	color: #FFFFFF;
+	width: 100vw;
+	height: 100vh;
+	vertical-align: middle;
+	display: table-cell;
+}
 .home-content{
 	display: table-cell;
 	width: 100vw;
@@ -100,6 +109,9 @@ input[type="button"]{
 @media only screen and (max-width: 700px){
 	.home-content{
 		padding-top: 5%;
+	}
+	.about-content{
+		padding-top: 15%;
 	}
 	
 	.big{
