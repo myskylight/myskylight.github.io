@@ -1,0 +1,161 @@
+<!doctype html>
+<html>
+	<head>
+<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=ABeeZee|PT+Sans+Caption" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Backgrounds</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="st1.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+	<link href="iconfinder_Html_669948.png" rel="icon" type="png/jpg">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+     <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html" style="color:#3F51B5;">MY SKYLIGHT</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="about.html" style="text-align: center;">About</a></li>
+					<li><a href="htmlgallery.html" style="text-align: center;">HTML</a></li>
+					<li><a href="cssgallery.html" style="text-align: center;">CSS</a></li>
+                    <li><a href="#" style="text-align: center;">Project</a></li>
+					<li><a href="#" style="text-align: center;">Feedback</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+	<div class="contain">
+		<img src="computer.jpg" width="1010" height="300" class="bg-sty">
+	
+	<div class="bg1">
+		<h3>The CSS background properties are used to define the background effects for elements.</h3><br>
+	     <h5>CSS background properties:</h5>
+	     <ul >
+			 <li style="margin-left: 1%;">background-color</li>
+			 <li style="margin-left: 1%;">background-image</li>
+			 <li style="margin-left: 1%;">background-repeat</li>
+			 <li style="margin-left: 1%;">background-position</li>
+			  <li style="margin-left: 1%;">Linear Gradients(rgba) </li>
+	</ul>
+	</div>
+		</div>
+	<div id="content14">
+		<p><h1 style="padding-top: 8px;">CSS Syntax</h1></p>
+	    <p><h4>background-repeat: repeat|repeat-x|repeat-y|no-repeat|initial|inherit;</h4></p>
+	   <h1 style="padding-top: 8px;">Property Values</h1>
+	
+	<table width="1110"  height="auto" class="table-data">
+				<tr>
+					<th style="text-align: center; color: #D50000;">Value</th>
+				    <th style="text-align: center; color: #D50000;">Description</th>
+				    
+				</tr>
+		<tr>
+			<td style="padding-left: 2px;">Repeat</td>
+				<td>The background image is repeated both vertically and horizontally.</td>
+			</tr>
+			<tr>
+			<td style="padding-left: 2px;">Repeat-x</td>
+				<td>The background image is repeated only horizontally</td>
+			</tr>
+			<tr>
+				<td style="padding-left: 2px;">Repeat-y</td>
+				<td>The background image is repeated only vertically</td>
+			</tr>
+			<tr>
+				<td style="padding-left: 2px;">No-repeat</td>
+				<td>The background-image is not repeated. The image will br show only once</td>
+			</tr>
+		<tr>
+				<td style="padding-left: 2px;">RGBA</td>
+			  <td>
+				  <ul>
+					  <li>
+						  R=Red
+					  </li>
+					  <li>
+						  G=Green
+					  </li>
+					  <li>
+						  B=Blue
+					  </li>
+					  <li>
+						  A=Alpha
+					  </li>
+				  </ul>
+				  The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (fully opaque)
+			  </td>
+			</tr>
+		<tr>
+				<td style="padding-left: 2px;">HSL</td>
+				<td>HSL stands for Hue, Saturation and Lightness.</td>
+			</tr>
+		<tr>
+				<td style="padding-left: 2px;">HSLA</td>
+				<td>HSL stands for Hue, Saturation ,Lightness and alpha.</td>
+			</tr>
+		<tr>
+				<td style="padding-left: 2px;">Opacity</td>
+				<td>The opacity property value must be a number between 0.0 (fully transparent) and 1.0 (fully opaque).</td>
+			</tr>
+		</table>
+	</div>
+<div class="well">
+	<h2>Example:</h2>
+		<div style="background-color:#FFFFFF; padding: 5px;">
+	 
+		&lt;!DOCTYPE html&gt;<br>
+        &lt;html&gt;<br>
+&lt;head&gt;<br>
+&lt;style&gt;<br>
+body {<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;background-image: url("bg1.jpg");<br>
+}<br>
+h1 {<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;background-color: green;<br>
+}<br>
+
+div {<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;background-color: Red;<br>
+}<br>
+
+p {<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;background-color: yellow;<br>
+}<br>
+&lt;/style&gt;<br>
+&lt;/head&gt;<br>
+&lt;body&gt;<br>
+
+&lt;h1&gt;CSS background-color example!&lt;/h1&gt;<br>
+&lt;div&gt;<br>
+This is a text inside a div element.<br>
+&lt;p&gt;This paragraph has its own background color.&lt;/p&gt;<br>
+We are still in the div element.<br>
+&lt;/div&gt;<br>
+
+&lt;/body&gt;<br>
+&lt;/html&gt;<br>
+
+			
+	</div><br>
+		<button class="btn btn-success">TRY IT YOURSELF</button>
+	</div>
+<div id="content15">
+	<h1>Background Image - Fixed position</h1>
+	<h4>To specify that the background image should be fixed (will not scroll with the rest of the page)</h4>
+</div>
+<br>
+</body>
+</html>

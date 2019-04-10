@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+	<head>
+<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=ABeeZee|PT+Sans+Caption" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Css-Stylesheet</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="st1.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+	<link href="iconfinder_Html_669948.png" rel="icon" type="png/jpg">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+     <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html" style="color:#3F51B5;">MY SKYLIGHT</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="about.html" style="text-align: center;">About</a></li>
+					<li><a href="htmlgallery.html" style="text-align: center;">HTML</a></li>
+					<li><a href="cssgallery.html" style="text-align: center;">CSS</a></li>
+                    <li><a href="#" style="text-align: center;">Project</a></li>
+					<li><a href="#" style="text-align: center;">Feedback</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+	
+	<div id="content10">
+		<h1>External Style Sheet</h1>
+		<p><h4>1)With an external style sheet, you can change the look of an entire website by changing just one file!</h4></p>
+	   <h4>2)Each page must include a reference to the external style sheet file inside the <link> element. The <link> element goes inside the &lt;head &gt;section:</h4>
+	</div>
+	
+	<div class="well">
+	<h2>Example:</h2>
+		<div style="background-color:#FFFFFF; padding: 5px;">
+	 &lt;head&gt;<br>
+        &lt;link rel="stylesheet" type="text/css" href="mystyle.css"&gt;<br>
+     &lt;/head&gt;
+	</div><br>
+		<button class="btn btn-success">TRY IT YOURSELF</button>
+	</div>
+	
+	<div id="content11">
+		<h1>Internal Style Sheet</h1>
+		<p><h4>1)An internal style sheet may be used if one single page has a unique style.</h4></p>
+	   <h4>2)Internal styles are defined within the &lt;style&gt; element, inside the &lt;head&gt; section of an HTML page:</h4>
+	</div>
+	
+<div class="well">
+	<h2>Example:</h2>
+		<div style="background-color:#FFFFFF; padding: 5px;">
+			&lt;head&gt;<br>
+	 &lt;style&gt;<br>
+         body {<br>
+         background-color: linen;<br>
+         }<br>
+
+        h1 {<br>
+           color: maroon;<br>
+           margin-left: 40px;<br>
+           } <br>
+&lt;/style&gt;<br>
+			&lt;/head&gt;
+	</div><br>
+		<button class="btn btn-success">TRY IT YOURSELF</button>
+	</div>
+
+<div id="content12">
+		<h1>Inline Styles Sheet</h1>
+		<p><h4>1)An inline style may be used to apply a unique style for a single element.</h4></p>
+	   <h4>2)To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.</h4>
+       <h4>3)The example below shows how to change the color and the left margin of a &lt;h1&gt;element:</h4>
+	</div>
+<div class="well">
+	<h2>Example:</h2>
+		<div style="background-color:#FFFFFF; padding: 5px;">
+			&lt;h1 style="color:blue;margin-left:30px;"&gt;<br>
+			This is a heading&lt;/h1&gt;
+	</div>
+</div>
+<br>
+
+</body>
+</html>

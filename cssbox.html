@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+	<head>
+<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=ABeeZee|PT+Sans+Caption" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Box Model</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="st1.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+	<link href="iconfinder_Html_669948.png" rel="icon" type="png/jpg">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700" rel="stylesheet">
+</head>
+<body>
+     <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html" style="color:#3F51B5;">MY SKYLIGHT</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="about.html" style="text-align: center;">About</a></li>
+					<li><a href="htmlgallery.html" style="text-align: center;">HTML</a></li>
+					<li><a href="cssgallery.html" style="text-align: center;">CSS</a></li>
+                    <li><a href="#" style="text-align: center;">Project</a></li>
+					<li><a href="#" style="text-align: center;">Feedback</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+	<div id="content16">
+		<h1>The CSS Box Model</h1>
+		<h4>It consists of: margins, borders, padding, and the actual content. The image below illustrates the box model:</h4>
+		<img src="box-model.png" width="600" height="260" class="box-model">
+	</div>
+	<div id="content17">
+		<h1 style="color: #B71C1C;">Explanation of the different parts:</h1>
+		<ol>
+			<h4><li>Border - A border that goes around the padding and content</li></h4>
+			<h4><li>Margin - Clears an area outside the border. The margin is transparent</li></h4>
+			<h4><li>Content - The content of the box, where text and images appear</li></h4>
+			<h4><li>Padding - Clears an area around the content. The padding is transparent</li></h4>
+		</ol>
+	</div>
+	<div class="well">
+		<h2>Example:</h2>
+		<div style="background-color:#FFFFFF; padding: 5px;">
+			
+			&lt;!DOCTYPE html&gt;<br>
+            &lt;html&gt;<br>
+            &lt;head&gt;<br>
+            &lt;style&gt;<br>
+            div {<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;ackground-color: lightgrey;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;width: 300px;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;border: 15px solid green;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;padding: 50px;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;margin: 20px;<br>
+            }<br>
+            &lt;/style&gt;<br>
+            &lt;/head&gt;<br>
+            &lt;body&gt;<br>
+
+            &lt;h2&gt;Demonstrating the Box Model&lt;/h2&gt;<br>
+
+            &lt;p&gt;The CSS box model is essentially a box that wraps around every HTML element. It consists of: borders, padding, margins, and the actual content.&lt;/p&gt;<br>
+
+            &lt;div&gt;<br>
+			The CSS box model is the foundation of layout on the Web — each element is represented as a rectangular box, with the box's content, padding, border, and margin built up around one another like the layers of an onion. As a browser renders a web page layout, it works out what styles are applied to the content of each box.<br>
+            &lt;/div&gt;<br>
+
+            &lt;/body&gt;<br>
+            &lt;/html&gt;
+
+
+			
+		</div>
+		<button class="btn btn-success">TRY IT YOURSELF</button>
+	</div>
+	<div id="content18">
+		<h1>CSS - Margins</h1>
+		<h4>
+			<ul>
+				<li>margin-top</li>
+				<li>margin-right</li>
+				<li>margin-bottom</li>
+				<li>margin-left</li>
+				</ul>
+		</h4>
+		<p style="color: #B71C1C; padding-left: 17px; font-size: 21px;">All the margin,padding,height,width properties can have the following values:</p>
+		<p style="padding-left: 23px; font-size: 17px;">1)It's specified by  px, pt, cm, etc.</p>
+		<p style="padding-left: 23px; font-size: 17px;">2)Auto - It is calculate by browser  </p>
+	
+	</div>
+	<div id="content19">
+		<p style="font-size:20px;color: #B71C1C; padding-left: 4%;">If the margin property has four values:</p>
+					<p style="padding-left: 6%; font-size: 16px; font-family: 'Roboto Condensed', sans-serif;">margin: 25px 50px 75px 100px;</p>
+					
+				<ul style="list-style-type: circle; padding-left: 9%;">
+					<li>top margin is 25px</li>
+					<li>right margin is 50px</li>
+					<li>bottom margin is 75px</li>
+					<li>left margin is 100px</li>
+				</ul>
+		
+		<p style="font-size:20px;color: #B71C1C; padding-left: 4%;">If the margin property has three values:</p>
+					<p style="padding-left: 6%; font-size: 16px; font-family: 'Roboto Condensed', sans-serif;">margin: 25px 50px 75px;</p>
+					
+				<ul style="list-style-type: circle; padding-left: 9%;">
+					<li>top margin is 25px</li>
+					<li>right margin is 50px</li>
+					<li>bottom margin is 75px</li>
+				</ul>
+		
+		<p style="font-size:20px;color: #B71C1C; padding-left: 4%;">If the margin property has two values:</p>
+					<p style="padding-left: 6%; font-size: 16px; font-family: 'Roboto Condensed', sans-serif;">margin: 25px 50px;</p>
+					
+				<ul style="list-style-type: circle; padding-left: 9%;">
+					<li>top and bottom margins are 25px</li>
+					<li>right and left margins are 50px</li>
+					
+				</ul>
+		
+		<p style="font-size:20px;color: #B71C1C; padding-left: 4%;">If the margin property has One values:</p>
+					<p style="padding-left: 6%; font-size: 16px; font-family: 'Roboto Condensed', sans-serif;">margin: 25px;</p>
+					
+				<ul style="list-style-type: circle; padding-left: 9%;">
+					<li>all four margins are 25px</li>
+					
+					
+				</ul>
+		
+	</div><br>
+	
+</body>
+</html>
